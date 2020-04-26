@@ -7,11 +7,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
-import java.util.regex.Pattern;
 
 @RestController
 public class FunnyController {
-    Pattern p = Pattern.compile("^[A-Z][ A-Z]+$");
 
     private FunnyService funnyService;
 
